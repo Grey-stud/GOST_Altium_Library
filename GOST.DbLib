@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=.\Components.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\GitHub\GOST_Altium_Library\Components.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,11 +11,11 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=
-LibraryDatabasePath=
-DatabasePathRelative=0
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=Components.xls
+DatabasePathRelative=1
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=..\GOST_Altium_Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
@@ -62,6 +62,9 @@ TableName=LED$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Светодиод CLM1B-AKW 0=149
 [Table8]
 SchemaName=
 TableName=Miscellaneous$
@@ -74,6 +77,9 @@ TableName=R$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=304|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67|Value0=52|Precision0=69|Power0=55
 [Table10]
 SchemaName=
 TableName=Switches$
