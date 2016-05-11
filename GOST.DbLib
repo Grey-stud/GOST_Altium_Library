@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\GitHub\GOST_Altium_Library\KonturLib.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\GitHub\GOST_Altium_Library\KonturLib.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -12,30 +12,34 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=E:\GitHub\GOST_Altium_Library\KonturLib.xls
-DatabasePathRelative=0
+LibraryDatabasePath=D:\GitHub\GOST_Altium_Library\KonturLib.xls
+DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Ëèñò1$
+LastFocusedTable=resistor$
 [Table1]
 SchemaName=
-TableName=Ëèñò1$
+TableName=resistor$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=215|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=52|ComponentLink1URL0=290|ComponentLink1Description0=170
+BrowserOrder_Visible=Part Number0=215|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=52|Precision0=69|ComponentLink1URL0=290|ComponentLink1Description0=170
 [FieldMap1]
-Options=FieldName=Ëèñò1$.Part Number|TableNameOnly=Ëèñò1$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=resistor$.Part Number|TableNameOnly=resistor$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Ëèñò1$.Library Ref|TableNameOnly=Ëèñò1$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=resistor$.Library Ref|TableNameOnly=resistor$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Ëèñò1$.Footprint Ref|TableNameOnly=Ëèñò1$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=resistor$.Footprint Ref|TableNameOnly=resistor$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Ëèñò1$.Library Path|TableNameOnly=Ëèñò1$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=resistor$.Library Path|TableNameOnly=resistor$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Ëèñò1$.Footprint Path|TableNameOnly=Ëèñò1$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=resistor$.Footprint Path|TableNameOnly=resistor$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=resistor$.Value|TableNameOnly=resistor$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=resistor$.Precision|TableNameOnly=resistor$|FieldNameOnly=Precision|FieldType=1|ParameterName=Precision|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
