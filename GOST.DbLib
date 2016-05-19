@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=343|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=483|Value0=52|Precision0=69|Dielectric Type0=121|Maximum Voltage0=115|ESR0=42
+BrowserOrder_Visible=Part Number0=403|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=483|Capacitance0=85|Tolerance0=72|Dielectric Type0=121|Maximum Voltage0=115
 [Table2]
 SchemaName=
 TableName=Connectors$
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=165|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67|Reverse Voltage0=105|Forward Current0=108|Recovery Time0=94
+BrowserOrder_Visible=Part Number0=106|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=953|Reverse Voltage0=105|Forward Current0=108|Peak Current0=89|Recovery Time0=94
 [Table4]
 SchemaName=
 TableName=Fuses$
@@ -55,16 +55,16 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=290|Library Ref0=77|Footprint Ref0=108|Library Path0=83|Footprint Path0=98|HelpURL0=534|Current0=62|Voltage0=63
+BrowserOrder_Visible=Part Number0=290|Library Ref0=77|Footprint Ref0=101|Library Path0=83|Footprint Path0=98|HelpURL0=534|Current0=62|Voltage0=63
 [Table5]
 SchemaName=
-TableName=IC$
+TableName=ICs$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=224|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
+BrowserOrder_Visible=Part Number0=203|Library Ref0=133|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
 [Table6]
 SchemaName=
 TableName=L$
@@ -73,19 +73,19 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=277|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67|Value0=52|Precision0=69|Maximum Current0=114
+BrowserOrder_Visible=Part Number0=277|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=424|Inductance0=112|Tolerance0=72|Rated Current0=95|Saturation Current0=119|DC Resistance0=95
 [Table7]
 SchemaName=
-TableName=LED$
+TableName=LEDs$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=135|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
+BrowserOrder_Visible=Part Number0=135|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=600|Color0=51
 [Table8]
 SchemaName=
-TableName=Miscellaneous$
+TableName=Misc$
 Enabled=True
 UserWhere=0
 UserWhereText=
@@ -100,7 +100,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=304|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=379|Value0=52|Precision0=69|Power0=55|Maximum Working Voltage0=163|Maximum Overload Voltage 0=168|Rated Current0=95|Maximum Current0=114
+BrowserOrder_Visible=Part Number0=304|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=428|Resistance0=77|Tolerance0=72|Power0=55|Maximum Working Voltage0=163|Maximum Overload Voltage 0=168|Rated Current0=95|Maximum Current0=114
 [Table10]
 SchemaName=
 TableName=Switches$
@@ -109,34 +109,70 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=145|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67|Voltage0=63|Current0=62
+BrowserOrder_Visible=Part Number0=145|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=354|Voltage0=63|Current0=62
 [Table11]
 SchemaName=
-TableName=VT$
+TableName=TVS$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=157|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
+BrowserOrder_Visible=Part Number0=165|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=594|Min Breakdown Voltage0=148|Max Breakdown Voltage0=149|Stand-Off Voltage0=117|Direction0=73|Peak Pulse Power0=112|Power dissipation0=115
 [Table12]
 SchemaName=
-TableName=XT$
+TableName=Thermistor$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=165|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
+BrowserOrder_Visible=Part Number0=154|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=307|Resistance0=77|Tolerance0=72|Max Current0=86
 [Table13]
 SchemaName=
-TableName=Zener$
+TableName=Thyristors$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=147|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
+BrowserOrder_Visible=Part Number0=129|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=375|A-C Voltage0=84|G-C Voltage0=85
+[Table14]
+SchemaName=
+TableName=VTs$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=157|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=942
+[Table15]
+SchemaName=
+TableName=Varistors$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=145|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=330|RMS Voltage0=89|DC Voltage0=81|Max Current0=86
+[Table16]
+SchemaName=
+TableName=Z$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=224|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=496
+[Table17]
+SchemaName=
+TableName=Zeners$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=147|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=316|Working Voltage0=111|Tolerance0=72|Power Dissipation0=116|Peak Reverse Power Dissipation0=185
 [FieldMap1]
 Options=FieldName=C$.Part Number|TableNameOnly=C$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -178,15 +214,15 @@ Options=FieldName=Fuses$.Library Path|TableNameOnly=Fuses$|FieldNameOnly=Library
 [FieldMap20]
 Options=FieldName=Fuses$.Footprint Path|TableNameOnly=Fuses$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=IC$.Part Number|TableNameOnly=IC$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ICs$.Part Number|TableNameOnly=ICs$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=IC$.Library Ref|TableNameOnly=IC$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ICs$.Library Ref|TableNameOnly=ICs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=IC$.Footprint Ref|TableNameOnly=IC$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ICs$.Footprint Ref|TableNameOnly=ICs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=IC$.Library Path|TableNameOnly=IC$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ICs$.Library Path|TableNameOnly=ICs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=IC$.Footprint Path|TableNameOnly=IC$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ICs$.Footprint Path|TableNameOnly=ICs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
 Options=FieldName=L$.Part Number|TableNameOnly=L$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
@@ -198,25 +234,25 @@ Options=FieldName=L$.Library Path|TableNameOnly=L$|FieldNameOnly=Library Path|Fi
 [FieldMap30]
 Options=FieldName=L$.Footprint Path|TableNameOnly=L$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
-Options=FieldName=LED$.Part Number|TableNameOnly=LED$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LEDs$.Part Number|TableNameOnly=LEDs$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=LED$.Library Ref|TableNameOnly=LED$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LEDs$.Library Ref|TableNameOnly=LEDs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap33]
-Options=FieldName=LED$.Footprint Ref|TableNameOnly=LED$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LEDs$.Footprint Ref|TableNameOnly=LEDs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap34]
-Options=FieldName=LED$.Library Path|TableNameOnly=LED$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LEDs$.Library Path|TableNameOnly=LEDs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=LED$.Footprint Path|TableNameOnly=LED$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LEDs$.Footprint Path|TableNameOnly=LEDs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
-Options=FieldName=Miscellaneous$.Part Number|TableNameOnly=Miscellaneous$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc$.Part Number|TableNameOnly=Misc$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
-Options=FieldName=Miscellaneous$.Library Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc$.Library Ref|TableNameOnly=Misc$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
-Options=FieldName=Miscellaneous$.Footprint Ref|TableNameOnly=Miscellaneous$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc$.Footprint Ref|TableNameOnly=Misc$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=Miscellaneous$.Library Path|TableNameOnly=Miscellaneous$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc$.Library Path|TableNameOnly=Misc$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=Miscellaneous$.Footprint Path|TableNameOnly=Miscellaneous$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc$.Footprint Path|TableNameOnly=Misc$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
 Options=FieldName=R$.Part Number|TableNameOnly=R$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
@@ -238,32 +274,72 @@ Options=FieldName=Switches$.Library Path|TableNameOnly=Switches$|FieldNameOnly=L
 [FieldMap50]
 Options=FieldName=Switches$.Footprint Path|TableNameOnly=Switches$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=VT$.Part Number|TableNameOnly=VT$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TVS$.Part Number|TableNameOnly=TVS$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=VT$.Library Ref|TableNameOnly=VT$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TVS$.Library Ref|TableNameOnly=TVS$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=VT$.Footprint Ref|TableNameOnly=VT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TVS$.Footprint Ref|TableNameOnly=TVS$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=VT$.Library Path|TableNameOnly=VT$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TVS$.Library Path|TableNameOnly=TVS$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=VT$.Footprint Path|TableNameOnly=VT$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TVS$.Footprint Path|TableNameOnly=TVS$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=XT$.Part Number|TableNameOnly=XT$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thermistor$.Part Number|TableNameOnly=Thermistor$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=XT$.Library Ref|TableNameOnly=XT$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thermistor$.Library Ref|TableNameOnly=Thermistor$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=XT$.Footprint Ref|TableNameOnly=XT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thermistor$.Footprint Ref|TableNameOnly=Thermistor$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=XT$.Library Path|TableNameOnly=XT$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thermistor$.Library Path|TableNameOnly=Thermistor$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=XT$.Footprint Path|TableNameOnly=XT$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thermistor$.Footprint Path|TableNameOnly=Thermistor$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=Zener$.Part Number|TableNameOnly=Zener$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thyristors$.Part Number|TableNameOnly=Thyristors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=Zener$.Library Ref|TableNameOnly=Zener$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thyristors$.Library Ref|TableNameOnly=Thyristors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=Zener$.Footprint Ref|TableNameOnly=Zener$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thyristors$.Footprint Ref|TableNameOnly=Thyristors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=Zener$.Library Path|TableNameOnly=Zener$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thyristors$.Library Path|TableNameOnly=Thyristors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=Zener$.Footprint Path|TableNameOnly=Zener$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Thyristors$.Footprint Path|TableNameOnly=Thyristors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap66]
+Options=FieldName=VTs$.Part Number|TableNameOnly=VTs$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=VTs$.Library Ref|TableNameOnly=VTs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=VTs$.Footprint Ref|TableNameOnly=VTs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=VTs$.Library Path|TableNameOnly=VTs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=VTs$.Footprint Path|TableNameOnly=VTs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=Varistors$.Part Number|TableNameOnly=Varistors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=Varistors$.Library Ref|TableNameOnly=Varistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=Varistors$.Footprint Ref|TableNameOnly=Varistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=Varistors$.Library Path|TableNameOnly=Varistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
+Options=FieldName=Varistors$.Footprint Path|TableNameOnly=Varistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap76]
+Options=FieldName=Z$.Part Number|TableNameOnly=Z$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap77]
+Options=FieldName=Z$.Library Ref|TableNameOnly=Z$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap78]
+Options=FieldName=Z$.Footprint Ref|TableNameOnly=Z$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap79]
+Options=FieldName=Z$.Library Path|TableNameOnly=Z$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap80]
+Options=FieldName=Z$.Footprint Path|TableNameOnly=Z$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap81]
+Options=FieldName=Zeners$.Part Number|TableNameOnly=Zeners$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap82]
+Options=FieldName=Zeners$.Library Ref|TableNameOnly=Zeners$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap83]
+Options=FieldName=Zeners$.Footprint Ref|TableNameOnly=Zeners$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap84]
+Options=FieldName=Zeners$.Library Path|TableNameOnly=Zeners$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap85]
+Options=FieldName=Zeners$.Footprint Path|TableNameOnly=Zeners$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
