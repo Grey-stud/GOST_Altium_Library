@@ -26,153 +26,102 @@ TableName=C$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=403|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=483|Capacitance0=85|Tolerance0=72|Dielectric Type0=121|Maximum Voltage0=115
 [Table2]
 SchemaName=
 TableName=Connectors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=235|Library Ref0=77|Footprint Ref0=187|Library Path0=101|Footprint Path0=101|HelpURL0=855
 [Table3]
 SchemaName=
 TableName=Diodes$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=106|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=953|Reverse Voltage0=105|Forward Current0=108|Peak Current0=89|Recovery Time0=94
 [Table4]
 SchemaName=
 TableName=Fuses$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=290|Library Ref0=77|Footprint Ref0=101|Library Path0=83|Footprint Path0=98|HelpURL0=534|Current0=62|Voltage0=63
 [Table5]
 SchemaName=
 TableName=ICs$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=203|Library Ref0=133|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
 [Table6]
 SchemaName=
 TableName=L$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=277|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=424|Inductance0=112|Tolerance0=72|Rated Current0=95|Saturation Current0=119|DC Resistance0=95
 [Table7]
 SchemaName=
 TableName=LEDs$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=135|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=600|Color0=51
 [Table8]
 SchemaName=
 TableName=Misc$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=217|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=67
 [Table9]
 SchemaName=
 TableName=R$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=304|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=428|Resistance0=77|Tolerance0=72|Power0=55|Maximum Working Voltage0=163|Maximum Overload Voltage 0=168|Rated Current0=95|Maximum Current0=114
 [Table10]
 SchemaName=
 TableName=Switches$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=145|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=354|Voltage0=63|Current0=62
 [Table11]
 SchemaName=
 TableName=TVS$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=165|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=594|Min Breakdown Voltage0=148|Max Breakdown Voltage0=149|Stand-Off Voltage0=117|Direction0=73|Peak Pulse Power0=112|Power dissipation0=115
 [Table12]
 SchemaName=
 TableName=Thermistor$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=154|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=307|Resistance0=77|Tolerance0=72|Max Current0=86
 [Table13]
 SchemaName=
 TableName=Thyristors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=129|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=375|A-C Voltage0=84|G-C Voltage0=85
 [Table14]
 SchemaName=
 TableName=VTs$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=157|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=942
 [Table15]
 SchemaName=
 TableName=Varistors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=145|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=330|RMS Voltage0=89|DC Voltage0=81|Max Current0=86
 [Table16]
 SchemaName=
 TableName=Z$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=224|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=496
 [Table17]
 SchemaName=
 TableName=Zeners$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=147|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|HelpURL0=316|Working Voltage0=111|Tolerance0=72|Power Dissipation0=116|Peak Reverse Power Dissipation0=185
 [FieldMap1]
 Options=FieldName=C$.Part Number|TableNameOnly=C$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
